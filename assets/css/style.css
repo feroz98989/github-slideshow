@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f4f4f4; /* Light grey background for blog pages */
+  color: #333; /* Darker text for readability */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White background for content area */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.site-nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Blog index specific styles */
+.blog-index h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-index ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-index li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-index li:last-child {
+  border-bottom: none;
+}
+
+.blog-index h2 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.blog-index h2 a:hover {
+  color: #007bff; /* Or your preferred link hover color */
+}
+
+/* Blog post specific styles */
+.post h1 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.post .post-content {
+  line-height: 1.6;
+}
+
+.post .post-content h2,
+.post .post-content h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.post .post-content p {
+  margin-bottom: 1em;
+}
+
+.post .post-content ul,
+.post .post-content ol {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}

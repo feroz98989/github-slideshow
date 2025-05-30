@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <header class="site-header">
+      <nav class="site-nav">
+        <a href="{{ site.baseurl }}/">Home (Presentation)</a>
+        <a href="{{ site.baseurl }}/blog/">AI Blog</a>
+      </nav>
+    </header>
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include script.html %}
+  </body>
+</html>
